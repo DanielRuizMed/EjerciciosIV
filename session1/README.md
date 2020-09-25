@@ -22,11 +22,11 @@
 # Ejercicio 2
 **Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”, es decir, que ofrezcan Virtual Private Servers o servidores físicos, y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa solo el 1% o el 10% del tiempo**
 
-	Este es el [servidor virtual privado](https://www.ovhcloud.com/es/vps/) que he elegido con la configuración media baja en la cual pagando 10,58€ al mes tenemos 2vCore, 4GB RAM, 80GB SSD de almacenamiento y 500 Mbit/s ilimitado de ancho de banda.
+Este es el [servidor virtual privado](https://www.ovhcloud.com/es/vps/) que he elegido con la configuración media baja en la cual pagando 10,58€ al mes tenemos 2vCore, 4GB RAM, 80GB SSD de almacenamiento y 500 Mbit/s ilimitado de ancho de banda.
 
 Su coste en un año sería de 126,96€
 
-	Para [servicio en la nube](https://azure.microsoft.com/es-es/services/virtual-machines/#pricing) con unas característica casi similares 2vCPU y 4GB RAM el precio es de 0,072€ por hora.
+Para [servicio en la nube](https://azure.microsoft.com/es-es/services/virtual-machines/#pricing) con unas característica casi similares 2vCPU y 4GB RAM el precio es de 0,072€ por hora.
 
 Suponiendo que se usa el 10% del tiempo de 1 día.
 
