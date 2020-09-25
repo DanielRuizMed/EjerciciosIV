@@ -8,7 +8,8 @@
 
 2. Calculamos el coste de amortización anual para 4 y 7 años, sabiendo que el maximo de amortizacion anual es 25%.
 > Para 4 años: 25/100 * 24847,12 = 6211,78
+
 > Para 7 años:
-- Primero calculamos el porcentaje que se pagara anualmente.
+Primero calculamos el porcentaje que se pagara anualmente.
 	100/7 =  14,3%
-- Luego el coste de amortización anual es: 14,3/100 * 24847,12 = 3553,14
+Luego el coste de amortización anual es: 14,3/100 * 24847,12 = 3553,14
