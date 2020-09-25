@@ -4,6 +4,7 @@
 
 1. Primero calculamos su 21% de IVA
 > 20.534,81 * 21/100 = 4312,31€
+
 > 20.534,81 + 4312,31 = 24847,12€
 
 2. Calculamos el coste de amortización anual para 4 y 7 años, sabiendo que el maximo de amortizacion anual es 25%.
@@ -24,18 +25,33 @@ Su coste en un año sería de 126,96€
 
 Suponiendo que se usa el 10% del tiempo de 1 dia.
 > 24 * 10/100 = 2,4 horas de uso diario
-> Luego al dia cuesta 0,18€, al mes 5,2€ y al año 62,21€
 
-**En conclusion** vemos que cloud es mas rentable si es utilizado solo ese 10% del día y en este por lo general solo pagamos lo que utilizamos. Mientras que en el servidor privado tenemos siempre un coste fijo de algo que se puede utilizar o no, depende del servicio que se ofrezca sera mas rentable uno u otro.
+> Luego al dia cuesta 0,18€, al mes 5,2€
+
+Su coste en un año sería de 62,21€
+
+**En conclusion** vemos que cloud es mas rentable si es utilizado solo ese 10% del día y en este por lo general solo pagamos lo que utilizamos, además que nos ofrece algunas facilidades más para ir ampliando lo que necesitemos. Mientras que en el servidor privado tenemos siempre un coste fijo de algo que se puede utilizar o no, depende del servicio que se ofrezca sera más rentable uno u otro.
 
 # Ejercicio 3
 **En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?**
+
 El modelo de procesador es el que se muestra en la siguiente imagen.
-> ![procesador](imagenes/ejercicio3_1.png)
+![procesador](imagenes/ejercicio3_1.png)
+
 Como salida de la orden egrep `'^flags.*(vmx|svm)' /proc/cpuinfo` podemos ver los flags que tiene nuestra CPU
-> ![flags](imagenes/ejercicio3_2.png)
+![flags](imagenes/ejercicio3_2.png)
+
 Cuando probamos esta orden en una maquina Virtual, ocurre lo citado no lista nada pues la funcionalidad o esta desactivada o no existe.
-> ![flags_virtual](imagenes/ejercicio3_3.png)
+![flags_virtual](imagenes/ejercicio3_3.png)
 
 # Ejercicio 4
 **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. Usar siempre que sea posible un hipervisor que sea software libre.**
+
+He instalado KVM con QEMU, anque tambien dispongo de VirtualBox.
+![flags](imagenes/ejercicio4_1.png)
+
+# Ejercicio 5
+**Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube libres como los mencionados en los párrafos anteriores, aunque sea temporalmente. Si la prueba es menos de un mes, simplemente anotarlo y dejarlo para el mes de diciembre, más o menos.**
+
+Me he registrado en Azure con una licencia de estudiante que da 100$ para su uso en la nube.
+![azure](imagenes/ejercicio5_1.png)
