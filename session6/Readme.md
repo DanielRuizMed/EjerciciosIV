@@ -6,7 +6,7 @@ Primero entramos en travis-ci.com y nos registramos con nuestra cuenta de Github
  
 ![](img/9_1.png)
  
-Esta nos redirige a Github donde nos pide que otorguemos privilegios a Travis y se instala
+Esta nos redirige a Github donde nos pide que otorgamos privilegios a Travis y se instala
  
 ![](img/9_2.png)
  
