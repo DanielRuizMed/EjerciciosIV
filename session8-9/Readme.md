@@ -3,7 +3,7 @@
 
 Nos registramos en Vercel y Firebase
 
-![vercel](img/1_8.png)
+![vercel](img/f1_8.png)
 ![firebase](img/f1_2.png)
 
 instalamos sdk para trabajar localmente
